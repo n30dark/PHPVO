@@ -19,6 +19,18 @@ class EmailAddressTest extends \PHPUnit_Framework_TestCase {
 		new EmailAddress($email);
 	}
 
+	public function testValueMethod(){
+		$email = 'abc@123.com';
+		$pvo = new EmailAddress($email);
+		$this->assertEquals($email, $pvo->value());
+	}
+
+	public function testToStringMethod(){
+		$email = 'abc@123.com';
+		$pvo = new EmailAddress($email);
+		$this->assertEquals($email, (string)$pvo);
+	}
+
 	public function validEmailAddressProvider(){
 		return [
 			['finney.alex@gmail.com'],

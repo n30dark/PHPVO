@@ -27,7 +27,7 @@ class EmailAddress implements Interfaces\Pvo {
     }
     
     public function __toString(){
-        return $this->get();
+        return $this->value();
     }
 
 }

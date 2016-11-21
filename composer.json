@@ -3,6 +3,10 @@
     "description": "Small package for creating Value Objects for use in personal and work projects",
     "type": "library",
     "license": "proprietary",
+    "source": {
+        "url": "https://gitlab.com/finlex/phpvo.git",
+        "type": "git"
+    },
     "authors": [
         {
             "name": "Alex",
