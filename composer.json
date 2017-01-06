@@ -1,5 +1,5 @@
 {
-    "name": "finlex/phpvo",
+    "name": "neopaulino/phpvo",
     "description": "Small package for creating Value Objects for use in personal and work projects",
     "type": "library",
     "license": "proprietary",
@@ -7,6 +7,11 @@
         {
             "name": "Alex",
             "email": "finney.alex@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Sergio",
+            "email": "j.sergio.paulino@gmail.com",
             "role": "Developer"
         }
     ],
