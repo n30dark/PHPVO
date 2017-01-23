@@ -1,5 +1,5 @@
 {
-    "name": "neopaulino/phpvo",
+    "name": "tfc/phpvo",
     "description": "Small package for creating Value Objects for use in personal and work projects",
     "type": "library",
     "license": "proprietary",
